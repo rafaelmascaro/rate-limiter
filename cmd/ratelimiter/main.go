@@ -5,11 +5,11 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/rafaelmascaro/Rate-Limiter/configs"
-	"github.com/rafaelmascaro/Rate-Limiter/internal/infra/web"
-	"github.com/rafaelmascaro/Rate-Limiter/internal/middleware"
-	"github.com/rafaelmascaro/Rate-Limiter/internal/repository"
-	"github.com/rafaelmascaro/Rate-Limiter/internal/usecase"
+	"github.com/rafaelmascaro/rate-limiter/configs"
+	"github.com/rafaelmascaro/rate-limiter/internal/infra/web"
+	"github.com/rafaelmascaro/rate-limiter/internal/middleware"
+	"github.com/rafaelmascaro/rate-limiter/internal/repository"
+	"github.com/rafaelmascaro/rate-limiter/internal/usecase"
 )
 
 func main() {

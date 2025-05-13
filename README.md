@@ -1,4 +1,4 @@
-# Rate-Limiter
+# rate-limiter
 
 Rate Limiter em Go que pode ser configurado para limitar o número máximo de requisições por segundo com base no **endereço IP** ou **token de acesso**. O Rate Limiter trabalha como um middleware injetado ao servidor web (para essa aplicação, possui um endpoint que retorna um "Hello, World!", rodando na porta 8080`).
 

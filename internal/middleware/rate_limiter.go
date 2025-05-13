@@ -5,7 +5,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/rafaelmascaro/Rate-Limiter/internal/usecase"
+	"github.com/rafaelmascaro/rate-limiter/internal/usecase"
 )
 
 type RateLimiterMiddleware struct {

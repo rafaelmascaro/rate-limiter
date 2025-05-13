@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/rafaelmascaro/Rate-Limiter/internal/middleware"
+	"github.com/rafaelmascaro/rate-limiter/internal/middleware"
 )
 
 type Webserver struct {

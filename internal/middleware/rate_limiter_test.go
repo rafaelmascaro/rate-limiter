@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rafaelmascaro/Rate-Limiter/configs"
-	"github.com/rafaelmascaro/Rate-Limiter/internal/entity"
-	"github.com/rafaelmascaro/Rate-Limiter/internal/repository"
-	"github.com/rafaelmascaro/Rate-Limiter/internal/usecase"
+	"github.com/rafaelmascaro/rate-limiter/configs"
+	"github.com/rafaelmascaro/rate-limiter/internal/entity"
+	"github.com/rafaelmascaro/rate-limiter/internal/repository"
+	"github.com/rafaelmascaro/rate-limiter/internal/usecase"
 	"github.com/stretchr/testify/assert"
 )
 

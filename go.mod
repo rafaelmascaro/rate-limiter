@@ -1,4 +1,4 @@
-module github.com/rafaelmascaro/Rate-Limiter
+module github.com/rafaelmascaro/rate-limiter
 
 go 1.23.3
 

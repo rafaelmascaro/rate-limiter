@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/rafaelmascaro/Rate-Limiter/internal/entity"
+	"github.com/rafaelmascaro/rate-limiter/internal/entity"
 )
 
 type RateLimiterUseCase struct {
