@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/go-chi/chi/v5"
 	"github.com/rafaelmascaro/rate-limiter/internal/middleware"
+	"github.com/go-chi/chi/v5"
 )
 
 type Webserver struct {

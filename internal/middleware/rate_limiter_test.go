@@ -108,7 +108,7 @@ func TestRateLimiterToken(t *testing.T) {
 
 	client := &http.Client{}
 	req, _ := http.NewRequest(http.MethodGet, server.URL+"/", nil)
-	req.Header.Set("API_KEY", "abc123")
+	req.Header.Set("API_KEY", "api123")
 
 	AddRateLimitForTest(repo, "127.0.0.1", 5, 15*time.Second)
 

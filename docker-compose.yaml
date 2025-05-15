@@ -18,16 +18,15 @@ services:
       until redis-cli -h redis ping | grep PONG; do sleep 1; done;
       echo 'Configurando rate limiters para a aplicação (DB 0)...'; 
       redis-cli -h redis -n 4 hset rate_limit:192.168.1.1 limit '5' time_block '60';
-      redis-cli -h redis -n 0 hset rate_limit:abc123 limit '100' time_block '300';
+      redis-cli -h redis -n 0 hset rate_limit:api123 limit '100' time_block '300';
       echo 'Configurando rate limiters para testes (DB 4)...'; 
       redis-cli -h redis -n 4 hset rate_limit:192.168.1.1 limit '5' time_block '15';
-      redis-cli -h redis -n 4 hset rate_limit:abc123 limit '10' time_block '10';"
+      redis-cli -h redis -n 4 hset rate_limit:api123 limit '10' time_block '10';"
     ]
 
   app:
     build:
       context: .
-
       dockerfile: Dockerfile
     container_name: app
     restart: always
